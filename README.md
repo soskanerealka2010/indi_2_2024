@@ -1,1 +1,4 @@
-# indi_2_2024
+$ git clone
+$ git add
+$ git comit -m "massege"
+$ git push
