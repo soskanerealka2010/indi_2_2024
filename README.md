@@ -1,4 +1,12 @@
-$ git clone
-$ git add
-$ git comit -m "massege"
-$ git push
+Hello World!
+
+```bash 
+$ git clone 
+$ git add .
+$ git commit -m "name"
+$ git push 
+```
+
+
+
+

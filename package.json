@@ -1,0 +1,24 @@
+{
+  "name": "indi_2_2024",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "cowsay": "node cowsay.js",
+    "lint": "node node_modules/eslint/bin/eslint **/*.ts",
+    "start": "tsc typescript/test.ts && node typescript/test.js"
+  },
+  "dependencies": {
+    "cowsay": "1.6.0",
+    "leaflet": "1.9.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "5.3.3",
+    "typescript-eslint": "7.0.1"
+  }
+}
