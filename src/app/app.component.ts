@@ -39,7 +39,7 @@ export class AppComponent implements OnInit {
     layers: [
       tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 18, attribution: '...'})
     ],
-    zoom: 17,
+    zoom: 16,
     center: latLng(43.9786, 15.3835)
   };
 }
